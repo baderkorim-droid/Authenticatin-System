@@ -1,71 +1,69 @@
-# 🔐 نظام المصادقة (Authentication System)
+# 🔐 Authentication System
 
-## 📌 الوصف
+## 📌 Description
 
-نظام Backend للمصادقة باستخدام Node.js و Express، mongoDB يتيح إنشاء حسابات وتسجيل الدخول بشكل آمن باستخدام JWT.
+MongoDB is a backend authentication system using Node.js and Express, enabling secure account creation and login.
 
----
-
-## 🚀 المميزات
-
-- تسجيل مستخدم جديد (Register)  
-- تسجيل دخول (Login)  
-- حماية المسارات باستخدام JWT  
-- تشفير كلمات المرور باستخدام bcrypt  
-- Validation للمدخلات (email / password)  
-- رسائل خطأ واضحة  
-- كود منظم وقابل للتطوير  
 
 ---
 
-## 🛠️ التقنيات المستخدمة
+## 🚀 Features
 
-- Node.js  
-- Express.js  
-- MongoDB + Mongoose  
-- JWT  
-- bcrypt  
+- New User Registration (Register)
+- Login
+- Path Protection using JWT
+- Password Encryption using bcrypt
+- Input Validation (email/password)
+- Clear Error Messages
+- Structured and Scalable Code
+
+---
+
+## 🛠️ Technologies Used
+
+- Node.js
+- Express.js
+- MongoDB + Mongoose
+- JWT
+- bcrypt
 - express-validator
 
 ---
 
-## ⚙️ طريقة التشغيل
+## ⚙️ How to Install
 
-1.  قم بتحميل المشروع وفك الضغط\
-2.  افتح المشروع باستخدام VS Code\
-3.  افتح Terminal داخل المشروع\
-4.  ثبت الحزم:
+1. Download and extract the project
 
-    npm install
+2. Open the project using VS Code
 
-    npm start     
+3. Open a terminal within the project
+
+4. Install the packages:
+
+npm install
+
+npm start
 
 ---
 
-## 📡 الـ API Endpoints
+## 📡 API Endpoints
 
 ### 🔐 Auth
 
--   تسجيل حساب:
+- Account Registration:
 
-    POST /api/auth/register
+POST /api/auth/register
 
--   تسجيل دخول:
+- Login:
 
-    POST /api/auth/login
-
----
-
-## 📬 تجربة الـ API
-
-يمكنك تجربة جميع الـ API من خلال Postman:
-
-🔗https://documenter.getpostman.com/view/49409127/2sBXqDtNzY
+POST /api/auth/login
 
 ---
 
-## 📌 ملاحظات
+## 📌 Notes
 
--   تأكد من تشغيل MongoDB قبل تشغيل المشروع\
--   لا تشارك ملف `.env`\
--   الكود قابل للتطوير بسهولة
+- Make sure MongoDB is running before running the project.
+
+- Do not share the `.env` file.
+
+- The code is easily extensible.
